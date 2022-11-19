@@ -31,55 +31,80 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Diesel, the Cat</a>
+        <a class="navbar-brand" href="#">Diesel, the cat</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a
-              class="nav-link active-link"
-              aria-current="page"
-              href="#"
-              title="Homepage"
-              >Home</a
-            >
-            <a class="nav-link" href="#" title="About Diesel, the cat">About</a>
-            <a class="nav-link" href="#" title="Portrait gallery of Diesel"
-              >Gallery</a
-            >
-            <a class="nav-link" href="#" title="Meet Diesel's Human"
-              >The Human</a
-            >
-            <a class="nav-link" href="#" title="Contact Diesel">Contact</a>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                title="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" title="About Diesel, the cat"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" title="Portrait gallery of Diesel"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" title="Meet Diesel's Human"
+                >The Human</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" title="Contact Diesel">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
     <div class="container landing-page-container">
       <div class="row">
-        <div class="col-sm-6">
-          <div class="row"></div>
-          <div class="row col-sm-12 hero">
+        <div class="col-md-6">
+          <div class="row col-md-1"></div>
+          <div class="row col-md-10 hero">
             <h2>Hi there!</h2>
             <h1>
               My name is <br />
               Diesel
             </h1>
           </div>
-          <div class="row"></div>
+          <div class="row col-sm-1"></div>
         </div>
         <div class="col-sm-6">
-          <img src="images/headshot-diesel.jpeg" alt="Headshot of Diesel, the
-          cat" class="img-fluid rounded headshot-primary"
+          <img
+            src="images/headshot-diesel.jpeg"
+            alt="Headshot of Diesel, the
+          cat"
+            class="img-fluid rounded headshot-primary shadow-md"
+          />
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              I am a short-haired spooky representative full of sass. If you
+              wondering about the spooky part....it’s me. I spook easily.
+            </p>
+          </div>
         </div>
       </div>
     </div>
