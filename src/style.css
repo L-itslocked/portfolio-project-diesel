@@ -22,7 +22,6 @@ i {
 h1 {
   font-family: var(--heading-font-family);
 }
-
 h2 {
   font-family: var(--heading-font-family);
 }
@@ -42,14 +41,7 @@ p {
   font-size: 24px;
   font-family: var(--heading-font-family);
   font-weight: normal;
-  padding: 5%;
-}
-.gallery {
-  font-family: "Nanum Pen Script", cursive;
-  font-size: 36px;
-}
-.gallery:hover {
-  color: var(--primary-color);
+  margin: 25px auto;
 }
 ul {
   list-style: none;
@@ -125,16 +117,17 @@ footer a:hover {
 .headshot-primary {
   margin: 0 auto;
   background: transparent;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
 }
 .interest-section ul {
   font-family: var(--body-font-family);
   line-height: 1.5;
   font-size: 16px;
-  margin: 25px 10px;
+  margin: 0 10px;
 }
 .compare-3 {
   background: var(--accent-color);
-  margin-top: 30px;
 }
 .compare-2 {
   border: 1px solid var(--secondary-color);
@@ -142,6 +135,17 @@ footer a:hover {
 .compare-1 {
   background: var(--secondary-color);
   color: #fff;
+}
+.gallery {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 36px;
+}
+.gallery img {
+  width: 200px;
+  height: auto;
+}
+.gallery:hover {
+  color: var(--primary-color);
 }
 .gallery-body {
   background-color: var(--accent-color);
@@ -152,7 +156,38 @@ footer a:hover {
   color: var(--primary-color);
   padding: 50px 0;
 }
-
+.bg-secondarycolor {
+  background-color: #e1e2e3;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.contact-diesel {
+  text-align: left !important;
+}
+.social-toast {
+  padding: 1px 12px;
+  margin: 100px;
+  border-radius: 7px;
+}
+.cat-sm {
+  font-size: 20px;
+  background-color: var(--accent-color);
+  border-radius: 100%;
+  text-align: left;
+}
+.h1-contact {
+  margin: 100px auto;
+}
+.social-post {
+  text-align: left !important;
+  padding-left: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.text-sm-right {
+  text-align: right !important;
+  padding: 10px 20px;
+}
 @media (min-width: 1000px) {
   .hero {
     padding: 50px;
@@ -180,6 +215,9 @@ footer a:hover {
   img {
     border: var(--primary-color);
   }
+  .headshot-primary {
+    border-radius: 7px;
+  }
 }
 @media (max-width: 767px) {
   p {
@@ -196,5 +234,31 @@ footer a:hover {
   .hero {
     margin: -50px 5px 40px 5px;
     padding: 20px;
+  }
+  .gallery-body {
+    max-width: fit-content;
+    padding: 25px;
+    display: block;
+    margin: 25px auto;
+  }
+  .gallery {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .carousel {
+    margin: 50px 10px;
+  }
+  footer {
+    font-size: 7px;
+  }
+  .social-toast {
+    margin: 25px;
+    font-size: 10px;
+  }
+  .contact-diesel {
+    font-size: 15px;
+  }
+  .social-post {
+    font-size: 12px;
   }
 }
