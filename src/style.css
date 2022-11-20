@@ -1,12 +1,18 @@
 :root {
   --primary-color: #36b3bd;
-  --secondary-color: #ff9d00;
+  --secondary-color: #000;
   --accent-color: #f2f2f2;
   --heading-font-family: "Playfair Display", serif;
   --body-font-family: "poppins", serif;
 }
 
-body {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, 
+i {
   text-align: center;
 }
 h1 {
@@ -17,17 +23,17 @@ h2 {
   font-family: var(--heading-font-family);
 }
 h3 {
-  font-family: var(--body-font-family);
-  margin-bottom: 20px;
+  font-family: var(--heading-font-family);
+  margin: 30px;
 }
 
 i {
   color: var(--primary-color);
-  font-size: 24px;
-  padding: 30px 40px;
+  font-size: 50px;
 }
 
 p {
+  text-align: center;
   font-size: 24px;
   font-family: var(--heading-font-family);
   font-weight: normal;
@@ -37,6 +43,8 @@ ul {
   list-style: none;
 }
 li {
+  opacity: 80%;
+  margin: 20px;
 }
 .navbar-toggler-icon {
   color: #fff !important;
@@ -67,7 +75,6 @@ li {
   color: var(--primary-color);
   background: var(--accent-color);
   padding: 100px 200px;
-  margin-top: 40%;
 }
 .hero h2 {
   font-size: 32px;
@@ -79,24 +86,40 @@ li {
 .headshot-primary {
   display: inline-flex;
   margin: 0 auto;
+  background: transparent;
 }
 .interest-section ul {
   font-family: var(--body-font-family);
-  line-height: 2;
+  line-height: 1.5;
   font-size: 16px;
+  margin: 25px 10px;
 }
-@media (max-width: 1400px) {
+.compare-3 {
+  background: var(--accent-color);
+  margin-top: 30px;
+}
+.compare-2 {
+  border: 1px solid var(--secondary-color);
+}
+.compare-1 {
+  background: var(--secondary-color);
+  color: #fff;
+}
+@media (min-width: 1000px) {
   .hero {
     padding: 50px;
+    margin: 0 auto;
+  }
+  .interest-section {
+    text-align: center;
+    margin: 75px;
   }
 }
 
-@media (min-width: 768px) {
-  p {
-    display: flex;
-  }
-}
 @media (max-width: 992px) {
+  .homepage-body {
+    margin: 75px;
+  }
   .hero {
     padding: 50px;
   }
@@ -104,17 +127,26 @@ li {
     font-size: 16px;
   }
   .hero h1 {
-    font-size: 25px;
+    font-size: 30px;
+  }
+  img {
+    border: var(--primary-color);
   }
 }
 @media (max-width: 767px) {
+  p {
+    display: block;
+    margin: 30px 5px -20px 20px;
+    font-size: 20px;
+  }
+  i {
+    font-size: 36px;
+  }
+  body {
+    margin: 25px 10px;
+  }
   .hero {
     margin: -50px 5px 40px 5px;
     padding: 20px;
-  }
-  p {
-    display: block;
-    margin: 30px 5px 20px 20px;
-    font-size: 14px;
   }
 }
