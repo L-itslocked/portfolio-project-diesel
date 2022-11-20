@@ -99,28 +99,27 @@ footer a:hover {
   cursor: pointer;
   transform: ease-in-out 200ms;
 }
-.homepage-container {
-  display: flex;
-  margin: 35px auto !important;
-  background-color: #fff;
-}
-.hero {
+.homepage-heading {
   color: var(--primary-color);
   background: var(--accent-color);
   padding: 200px 200px;
 }
-.hero h2 {
+.homepage-heading h2 {
   font-size: 32px;
 }
-.hero h1 {
+.homepage-heading h1 {
   font-size: 50px;
   line-height: 1.5;
 }
-.headshot-primary {
+.homepage-headshot {
   margin: 0 auto;
   background: transparent;
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
+}
+.homepage-caption {
+  font-size: 20px;
+  margin: 50px 0 0 0;
 }
 .homepage-interest-section ul {
   font-family: var(--body-font-family);
@@ -128,8 +127,12 @@ footer a:hover {
   font-size: 16px;
   margin: 0 10px;
 }
-.homepage-hobbies{
+.homepage-hobbies {
   background: var(--accent-color);
+}
+.homepage-likes,
+.homepage-dislikes {
+  margin: 0 auto;
 }
 .homepage-dislikes {
   border: 1px solid var(--secondary-color);
@@ -150,6 +153,10 @@ footer a:hover {
   font-size: 30px;
   font-weight: bold;
   margin: 100px 0 35px;
+}
+.about-icon {
+  text-align: center;
+  font-size: 15px !important;
 }
 .about-section,
 .signature-signoff {
@@ -224,7 +231,7 @@ footer a:hover {
   padding: 10px 20px;
 }
 @media (min-width: 1000px) {
-  .hero {
+  .homepage-heading {
     padding: 50px;
     margin: 0 auto;
   }
@@ -238,13 +245,13 @@ footer a:hover {
   .homepage-body {
     margin: 75px;
   }
-  .hero {
+  .homepage-heading {
     padding: 50px;
   }
-  .hero h2 {
+  .homepage-heading h2 {
     font-size: 16px;
   }
-  .hero h1 {
+  .homepage-heading h1 {
     font-size: 30px;
   }
   img {
@@ -269,7 +276,7 @@ footer a:hover {
   .homepage-container {
     margin: 25px 10px;
   }
-  .hero {
+  .homepage-heading {
     margin: -50px 5px 40px 5px;
     padding: 20px;
   }
@@ -286,6 +293,10 @@ footer a:hover {
     text-align: center;
     margin: 25px;
     font-size: 16px;
+  }
+  .about-icon {
+    font-size: 24px !important;
+    margin: 0 auto;
   }
   .signature-signoff {
     margin: 0 auto;
