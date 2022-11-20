@@ -6,6 +6,10 @@
   --body-font-family: "poppins", serif;
 }
 
+body {
+  width: 100%;
+  height: auto;
+}
 h1,
 h2,
 h3,
@@ -45,6 +49,10 @@ ul {
 li {
   opacity: 80%;
   margin: 20px;
+}
+footer {
+  font-size: 8px;
+  text-align: right;
 }
 .navbar-toggler-icon {
   color: #fff !important;
