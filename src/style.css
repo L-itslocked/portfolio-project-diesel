@@ -11,7 +11,7 @@ h2,
 h3,
 h4,
 h5,
-h6, 
+h6,
 i {
   text-align: center;
 }
@@ -62,9 +62,14 @@ li {
 }
 .active:hover {
   color: var(--secondary-color) !important;
+  cursor: pointer;
+  transform: ease-in-out 200ms;
 }
 .nav-link:hover {
   color: var(--primary-color) !important;
+  opacity: 70%;
+  cursor: pointer;
+  transform: ease-in-out 200ms;
 }
 .landing-page-container {
   display: flex;
