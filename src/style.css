@@ -7,7 +7,7 @@
 }
 
 body {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 h1,
@@ -51,8 +51,21 @@ li {
   margin: 20px;
 }
 footer {
-  font-size: 8px;
+  font-size: 10px;
   text-align: right;
+}
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+footer a:hover {
+  color: var(--secondary-color);
+  opacity: 50%;
+  cursor: pointer;
+  transition: 200ms;
+}
+.navbar {
+  max-width: 100%;
 }
 .navbar-toggler-icon {
   color: #fff !important;
@@ -81,13 +94,13 @@ footer {
 }
 .landing-page-container {
   display: flex;
-  margin: 100px auto;
+  margin: 35px auto !important;
   background-color: #fff;
 }
 .hero {
   color: var(--primary-color);
   background: var(--accent-color);
-  padding: 100px 200px;
+  padding: 200px 200px;
 }
 .hero h2 {
   font-size: 32px;
@@ -97,7 +110,6 @@ footer {
   line-height: 1.5;
 }
 .headshot-primary {
-  display: inline-flex;
   margin: 0 auto;
   background: transparent;
 }
@@ -155,7 +167,7 @@ footer {
   i {
     font-size: 36px;
   }
-  body {
+  .landing-page-container {
     margin: 25px 10px;
   }
   .hero {
