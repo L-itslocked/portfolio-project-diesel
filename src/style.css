@@ -99,6 +99,9 @@ footer a:hover {
   cursor: pointer;
   transform: ease-in-out 200ms;
 }
+.hero {
+  margin-top: 100px;
+}
 .homepage-heading {
   color: var(--primary-color);
   background: var(--accent-color);
@@ -111,11 +114,11 @@ footer a:hover {
   font-size: 50px;
   line-height: 1.5;
 }
+
 .homepage-headshot {
   margin: 0 auto;
   background: transparent;
-  border-top-left-radius: 7px;
-  border-bottom-left-radius: 7px;
+  border-radius: 7px;
 }
 .homepage-caption {
   font-size: 20px;
@@ -178,7 +181,7 @@ footer a:hover {
   padding-left: 150px;
 }
 
-.gallery {
+.gallery-caption {
   font-family: var(--handwrite-font-family);
   font-size: 36px;
 }
@@ -239,14 +242,30 @@ footer a:hover {
     text-align: center;
     margin: 75px;
   }
+  .carousel {
+    margin: 100px 600px;
+  }
+  .carousel img {
+    margin: 10px auto;
+  }
+  .gallery-diesel-main {
+    padding: 10px 10px 30px;
+    max-width: 300px;
+  }
 }
-
+@media (max-width: 1875px) {
+  .carousel {
+    margin: 100px 300px;
+  }
+}
 @media (max-width: 992px) {
   .homepage-body {
     margin: 75px;
+    display: block;
   }
   .homepage-heading {
     padding: 50px;
+    margin: 0 auto;
   }
   .homepage-heading h2 {
     font-size: 16px;
@@ -256,13 +275,22 @@ footer a:hover {
   }
   img {
     border: var(--primary-color);
+    margin: 10px auto;
+    display: block;
   }
-  .headshot-primary {
-    border-radius: 7px;
+
+  .about-heading {
+    margin: 100px 150px;
   }
-}
-.about-heading {
-  margin: 100px 200px;
+  .homepage-caption {
+    font-size: 16px;
+  }
+  .carousel {
+    margin: 75px 200px;
+  }
+  .gallery-caption {
+    font-size: 20px;
+  }
 }
 @media (max-width: 767px) {
   p {
@@ -313,9 +341,8 @@ footer a:hover {
     display: block;
     margin: 25px auto;
   }
-  .gallery {
-    font-size: 16px;
-    padding-bottom: 20px;
+  .gallery-caption {
+    padding-bottom: 22px;
   }
   .carousel {
     margin: 50px 10px;
