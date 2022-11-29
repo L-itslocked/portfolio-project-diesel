@@ -210,6 +210,41 @@ footer a:hover {
   color: var(--primary-color);
   padding: 50px 0;
 }
+.thehuman-container {
+  margin: 50px 25px;
+}
+.thehuman-h3 {
+  margin: 30px -10px 20px;
+  font-size: 18px;
+}
+.thehuman-h1 {
+  margin: 20px auto;
+}
+.thehuman-h2 {
+  font-size: 20px;
+}
+.thehuman-img {
+  max-width: 500px;
+  border-radius: 7px;
+}
+.thehuman-section {
+  font-family: var(--body-font-family);
+  font-size: 18px;
+}
+.thehuman-btn {
+  margin: 10px 3px;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid var(--primary-color);
+}
+.thehuman-btn a:hover {
+  color: var(--secondary-color);
+}
+.thehuman-btn:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
 .bg-secondarycolor {
   background-color: #e1e2e3;
   border-bottom-left-radius: 7px;
