@@ -60,6 +60,10 @@ footer {
 a {
   color: var(--primary-color);
   text-decoration: none;
+  transition: ease-in-out 200ms;
+}
+a:hover {
+  color: var(--secondary-color);
 }
 footer a:hover {
   color: var(--secondary-color);
@@ -223,31 +227,38 @@ footer a:hover {
 .thehuman-h2 {
   font-size: 20px;
 }
+.thehuman-small {
+  font-size: 17px;
+  opacity: 80%;
+  line-height: 1.5;
+}
 .thehuman-img {
   max-width: 500px;
   border-radius: 7px;
 }
 .thehuman-section {
   font-family: var(--body-font-family);
-  font-size: 18px;
+  font-size: 15px;
 }
 .thehuman-intro {
   background-color: white;
   padding: 0 25px;
+  margin: 80px 0 40px;
 }
 .thehuman-btn {
   margin: 10px auto;
-  display: inline-block;
+  display: block;
   padding: 5px;
   border: 1px solid var(--primary-color);
 }
-.thehuman-btn a:hover {
-  color: var(--secondary-color);
-}
 .thehuman-btn:hover {
-  text-decoration: none;
   color: var(--secondary-color);
   background-color: var(--primary-color);
+  text-decoration: none;
+  transition: 200ms ease-in-out;
+}
+.thehuman-btn a:hover {
+  color: var(--secondary-color);
 }
 .bg-secondarycolor {
   background-color: #e1e2e3;
