@@ -231,8 +231,12 @@ footer a:hover {
   font-family: var(--body-font-family);
   font-size: 18px;
 }
+.thehuman-intro {
+  background-color: white;
+  padding: 0 25px;
+}
 .thehuman-btn {
-  margin: 10px 3px;
+  margin: 10px auto;
   display: inline-block;
   padding: 5px;
   border: 1px solid var(--primary-color);
@@ -335,6 +339,9 @@ footer a:hover {
   .gallery-caption {
     font-size: 20px;
   }
+  .thehuman-btn {
+    margin: 50px 0 -25px;
+  }
 }
 @media (max-width: 767px) {
   p {
@@ -391,6 +398,7 @@ footer a:hover {
   .carousel {
     margin: 50px 10px;
   }
+
   footer {
     font-size: 7px;
   }
