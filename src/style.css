@@ -229,7 +229,7 @@ footer a:hover {
 }
 .thehuman-small {
   font-size: 17px;
-  opacity: 80%;
+  opacity: 77%;
   line-height: 1.5;
 }
 .thehuman-img {
@@ -238,6 +238,7 @@ footer a:hover {
 }
 .thehuman-section {
   font-family: var(--body-font-family);
+  opacity: 70%;
   font-size: 15px;
 }
 .thehuman-intro {
@@ -282,16 +283,29 @@ footer a:hover {
 .h1-contact {
   margin: 100px auto;
 }
-.social-post {
+.social-contactlaura {
   text-align: left !important;
   padding-left: 15px;
   font-size: 16px;
   line-height: 1.5;
 }
+.social-contactlaura a:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 7px;
+}
 .text-sm-right {
   text-align: right !important;
   padding: 10px 20px;
 }
+@media (min-width: 1500px) {
+  .thehuman-container {
+    display: block;
+    margin: 50px auto;
+  }
+}
+
 @media (min-width: 1000px) {
   .homepage-heading {
     padding: 50px;
@@ -316,6 +330,10 @@ footer a:hover {
   .carousel {
     margin: 100px 300px;
   }
+  .thehuman-container {
+    display: block;
+    margin: 50px auto;
+  }
 }
 @media (max-width: 992px) {
   .homepage-body {
@@ -331,6 +349,14 @@ footer a:hover {
   }
   .homepage-heading h1 {
     font-size: 30px;
+  }
+
+  .thehuman-section {
+    margin-bottom: -20px;
+  }
+  .thehuman-intro {
+    padding: 25px 25px 20px 50px;
+    margin: -20px 0 0;
   }
   img {
     border: var(--primary-color);
