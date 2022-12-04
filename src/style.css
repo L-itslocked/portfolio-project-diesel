@@ -135,7 +135,7 @@ footer a:hover {
 }
 .homepage-caption {
   font-size: 20px;
-  margin: 50px 0 0 0;
+  margin: 50px 50px 0 50px;
 }
 .homepage-interest-section ul {
   font-family: var(--body-font-family);
