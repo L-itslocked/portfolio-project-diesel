@@ -197,14 +197,13 @@ footer a:hover {
 .gallery-caption {
   font-family: var(--handwrite-font-family);
   font-size: 36px;
+  color: var(--primary-color);
 }
 .gallery img {
   width: 200px;
   height: auto;
 }
-.gallery:hover {
-  color: var(--primary-color);
-}
+
 .gallery-body {
   background-color: var(--accent-color);
 }
@@ -214,6 +213,7 @@ footer a:hover {
   color: var(--primary-color);
   padding: 50px 0;
 }
+
 .thehuman-container {
   margin: 50px 25px;
 }
@@ -225,12 +225,8 @@ footer a:hover {
   margin: 20px auto;
 }
 .thehuman-h2 {
-  font-size: 20px;
-}
-.thehuman-small {
-  font-size: 17px;
-  opacity: 77%;
-  line-height: 1.5;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 .thehuman-img {
   max-width: 500px;
@@ -239,17 +235,19 @@ footer a:hover {
 .thehuman-section {
   font-family: var(--body-font-family);
   opacity: 70%;
-  font-size: 15px;
+  font-size: 12px;
+  margin-top: 40px;
 }
 .thehuman-intro {
   background-color: white;
   padding: 0 25px;
-  margin: 80px 0 40px;
+  margin: 90px 0 40px;
 }
 .thehuman-btn {
   margin: 10px auto;
   display: block;
   padding: 5px;
+  background-color: #fff;
   border: 1px solid var(--primary-color);
 }
 .thehuman-btn:hover {
@@ -299,6 +297,14 @@ footer a:hover {
   text-align: right !important;
   padding: 10px 20px;
 }
+.contact-diesel-signoff {
+  font-size: 16px;
+  text-align: right !important;
+  color: var(--secondary-color);
+  opacity: 70%;
+  font-weight: 800px;
+  letter-spacing: 1.5px;
+}
 @media (min-width: 1500px) {
   .thehuman-container {
     display: block;
@@ -324,6 +330,12 @@ footer a:hover {
   .gallery-diesel-main {
     padding: 10px 10px 30px;
     max-width: 300px;
+  }
+  .about-heading {
+    padding: 100px 200px;
+    text-align: center;
+    margin: 50px 200px;
+    display: block;
   }
 }
 @media (max-width: 1875px) {
@@ -389,6 +401,9 @@ footer a:hover {
   i {
     font-size: 36px;
   }
+  footer {
+    font-size: 7px;
+  }
   .homepage-container {
     margin: 25px 10px;
   }
@@ -435,9 +450,23 @@ footer a:hover {
   .carousel {
     margin: 50px 10px;
   }
-
-  footer {
-    font-size: 7px;
+  .thehuman-h3 {
+    margin: -10px auto;
+    font-size: 18px;
+  }
+  .thehuman-h2 {
+    margin-top: -10px;
+    font-size: 15px;
+  }
+  .thehuman-intro {
+    background: transparent;
+    display: block;
+    margin: 0 auto;
+  }
+  .thehuman-img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
   }
   .social-toast {
     margin: 25px;
@@ -448,5 +477,8 @@ footer a:hover {
   }
   .social-post {
     font-size: 12px;
+  }
+  .contact-diesel-signoff {
+    padding-bottom: 40px;
   }
 }
