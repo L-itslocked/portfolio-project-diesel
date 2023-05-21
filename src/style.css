@@ -305,11 +305,12 @@ footer a:hover {
   font-weight: 800px;
   letter-spacing: 1.5px;
 }
-.footer-linkedin {
-  font-size: 24px;
+.coder-social {
+  font-size: 20px;
   line-height: 1px;
+  margin: 0 -20px;
 }
-.footer-linkedin:hover {
+.coder-social:hover {
   cursor: pointer;
   color: var(--secondary-color);
   transition: ease-in-out 200ms;
